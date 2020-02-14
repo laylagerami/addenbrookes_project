@@ -1,0 +1,80 @@
+Visualisation
+	Ctrl+Y
+	View > Fit > All
+
+Protein Preparation Wizard
+ 	Import and process (Standard)
+		uncheck delete waters
+		modify pH 7.2 +/- 0.5
+		filling missing side chains using Prime
+	Refine
+		H-bond assignment (Standard): PROPKA pH7.2
+		Restrained minimisation (Standard)
+
+Interactions
+	H-bond
+		O (carbonyl) ring D with M374 H (amino)
+			distance 1.82 Angstrons
+			angle 165.9 degrees
+
+Restrained minimisation
+	Standard
+
+Interactions after minimisation
+	H-bond
+		O (carbonyl) ring D with M374 H (amino)
+			distance 1.94 Angstrons
+			angle 160.3 degrees
+
+Grid generation
+	ligand as center of the enclosing box
+	size 12A
+
+
+Ligprep
+ 	Standard
+		modify pH 7.2 +/- 0.5	
+		Stereoisomers
+			Determine chiralities from 3D strucuture
+
+Redocking
+	Standard
+		Settings
+			Precision XP
+			Ligand sampling: Flexible
+		Core
+			Use core pattern comparison
+			Use for RMSD calculations only
+			Define core: all atoms (there is no protonation state difference)
+		Output
+			Write out at most 5 poses per ligand (10 for tbsir2)
+			Write post-docking minimisation
+				Number of poses per ligand to include: 5 (10 for tbsir2)
+			Write report file
+			Compute RMSD to imput ligand geometries
+		rmsd = 0.147 / 0.147 / 0.147
+
+Crossdocking
+	first test - the missing compounds probably failed
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(CC3)=CC(=O)[C@H](C)C4		C2-CH3
+	CC[C@H](C1)C(=O)C=C(CC2)[C@@]1(C)[C@@H](CC3)[C@@H]2[C@@H]([C@]34C)CCC4=O	C2-CH2-CH3
+	C1CC(=C)C=C(CC2)[C@@]1(C)[C@@H](CC3)[C@@H]2[C@@H]([C@]34C)CCC4=O		C3=CH2
+	C=C[C@@H](CC1)C=C(CC2)[C@@]1(C)[C@@H](CC3)[C@@H]2[C@@H]([C@]34C)CCC4=O		C3-CH=CH2
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(=CCCC4)[C@H](C3)c5ccco5		C6-furane
+	C1CC(=O)C=C([C@@H](C#N)C2)[C@@]1(C)[C@@H](CC3)[C@@H]2[C@@H]([C@]34C)CCC4=O	C6-CN
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(C(=S)C3)=CC(=O)CC4		C6=S
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(=CC(=O)CC4)[C@H](C3)c5cccs5	C6-thiophene
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(C[C@@H]3C)=CC(=O)CC4		C7-CH3
+	CCC[C@H]1CC(=CC(=O)CC2)[C@@]2(C)[C@@H](CC3)[C@@H]1[C@@H]([C@]34C)CCC4=O		C7-CH2-CH2-CH3
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(C[C@@H]3Cl)=CC(=O)CC4		C7-Cl
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(C[C@@H]3F)=CC(=O)CC4		C7-F
+	S=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(CC3)=CC(=O)CC4			C17=S
+	[O-]C(=O)[C@@H]1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(C)C(CC3)=CC(=O)CC4	C17-COOH
+	C1CC(=O)C=C(CC2)[C@@]1(C#N)[C@@H](CC3)[C@@H]2[C@@H]([C@]34C)CCC4=O		C10-CN
+	C1CC(=O)C=C(CC2)[C@@]1(CC#N)[C@@H](CC3)[C@@H]2[C@@H]([C@]34C)CCC4=O		C19-CN	
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(c5cocn5)C(CC3)=CC(=O)CC4		C10-oxazole
+	O=C1CC[C@H]([C@@]12C)[C@H]3[C@H](CC2)[C@]4(n5cncn5)C(CC3)=CC(=O)CC4		C10-triazole
+
+
+New initial 23
+

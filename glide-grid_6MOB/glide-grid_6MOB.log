@@ -1,0 +1,37 @@
+Glide version 76016 (mmshare version 39016)
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+[running at reduced cpu priority]
+--------------------------------------------------------------------------------
+JobId          : gollum-0-5e443d44
+Name           : glide-grid_6MOB
+Program        : Glide
+MMshareExec    : /usr/local/shared/schrodinger/2017-3/mmshare-v3.9/bin/Linux-x86_64
+Host           : gollum.ch.private.cam.ac.uk
+Dir            : /home/rag50/glide-grid_6MOB
+HostEntry      : localhost
+JobHost        : gollum.ch.private.cam.ac.uk
+JobDir         : /scratch/rag50/glide-grid_6MOB
+JobMMshareExec : /usr/local/shared/schrodinger/2017-3/mmshare-v3.9/bin/Linux-x86_64
+Commandline    : /usr/local/shared/schrodinger/2017-3/glide glide-grid_6MOB.in -OVERWRITE -HOST localhost -PROJ /home/rag50/Desktop/PDGFRalpha/PDGFRalpha.prj -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR -ATTACHED
+StartTime      : 2020-02-12-18:00:36
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS3 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by    1.00000000000000     
+ Charge cutoff for polarity  0.250000000000000     
+  Receptor setup: (nsites, nx, ny, nz, bsize)=(         125 ,           29 , 
+          29 ,           29 ,    1.00000000000000      ).
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+  DOCKMAIN after grid: (nx, ny, nz) = (          80 ,           80 , 
+          80 ).
+Creating output grid archive 'glide-grid_6MOB.zip'
+
+Exiting Glide
+Date: Wednesday, February 12 2020, at 18:01:16 GMT
+CPU time (s): 37.2 user, 0.5 system, 37.9 real
+Total elapsed time = 38 seconds
