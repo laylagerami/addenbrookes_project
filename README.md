@@ -15,4 +15,13 @@ git pull
 ## Pharmacophore modelling
 
 ### PDGFR-a
-Loaded 5grn.pdb into Schrodinger and ran preparation (all default, except I deleted Cl atoms and remove waters with less than 1 H-bonds to non-waters, added missing side chains)
+Loaded 5grn.pdb into Schrodinger and ran preparation (all default, except I deleted Cl atoms and remove waters with less than 1 H-bonds to non-waters, added missing side chains).
+
+Saved file as 5grn_prepared.pdb.
+
+Tasks -> Develop Pharmacophore Model, create pharmacophore model using -> Receptor-ligand complex
+* Method: Auto (E-Pharmacophore)
+* Hypothesis name: PDGFRa_hypothesis
+* See PDGFRa_pharmacophore_1/2.png
+
+
