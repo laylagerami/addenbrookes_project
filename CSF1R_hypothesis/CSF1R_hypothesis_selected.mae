@@ -1,0 +1,543 @@
+{
+  s_m_m2io_version
+  :::
+  2.0.0 
+} 
+
+f_m_ct { 
+  s_m_title
+  s_m_entry_id
+  s_m_entry_name
+  s_pdb_PDB_TITLE
+  s_pdb_PDB_ID
+  r_pdb_PDB_CRYST1_a
+  r_pdb_PDB_CRYST1_b
+  r_pdb_PDB_CRYST1_c
+  r_pdb_PDB_CRYST1_alpha
+  r_pdb_PDB_CRYST1_beta
+  r_pdb_PDB_CRYST1_gamma
+  s_pdb_PDB_CRYST1_Space_Group
+  i_pdb_PDB_CRYST1_z
+  s_pdb_PDB_CLASSIFICATION
+  s_pdb_PDB_DEPOSITION_DATE
+  s_pdb_PDB_format_version
+  r_pdb_PDB_R
+  r_pdb_PDB_Rfree
+  r_pdb_PDB_RESOLUTION
+  s_pdb_PDB_EXPDTA
+  r_pdb_PDB_EXPDTA_TEMPERATURE
+  r_pdb_PDB_EXPDTA_PH
+  s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains
+  s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1
+  s_m_Source_Path
+  s_m_Source_File
+  i_m_Source_File_Index
+  s_ppw_entry_id_backup
+  b_ppw_prepared
+  s_ppw_prepared_with_version
+  b_ppw_assigned_bond_orders
+  b_ppw_added_hydrogens
+  b_ppw_treated_metals
+  b_ppw_created_disulfur
+  b_ppw_deleted_far_waters
+  s_ppw_het_states
+  b_ppw_ran_protassign
+  b_ppw_removed_non_hbond_waters
+  r_i_Potential_Energy-OPLS3e
+  r_i_RMS_Derivative-OPLS3e
+  r_i_Max_Derivative-OPLS3e
+  r_i_Stretch_Energy-OPLS3e
+  r_i_Bend_Energy-OPLS3e
+  r_i_LJ-14_Energy-OPLS3e
+  r_i_El-14_Energy-OPLS3e
+  r_i_Van_der_Waals_Energy-OPLS3e
+  r_i_Electrostatic_Energy-OPLS3e
+  r_i_Dihedral_Energy-OPLS3e
+  r_i_target_temperature
+  b_ppw_ran_impref
+  s_i_glide_gridfile
+  i_i_glide_lignum
+  i_i_glide_rotatable_bonds
+  r_i_docking_score
+  r_i_glide_ligand_efficiency
+  r_i_glide_ligand_efficiency_sa
+  r_i_glide_ligand_efficiency_ln
+  r_glide_XP_GScore
+  r_i_glide_gscore
+  r_i_glide_evdw
+  r_i_glide_ecoul
+  r_i_glide_energy
+  r_i_glide_einternal
+  r_i_glide_emodel
+  r_glide_XP_HBond
+  r_glide_XP_PhobEn
+  r_glide_XP_PhobEnHB
+  r_glide_XP_LowMW
+  r_glide_XP_RotPenal
+  r_glide_XP_LipophilicEvdW
+  r_glide_XP_PhobEnPairHB
+  r_glide_XP_Electro
+  r_glide_XP_Sitemap
+  r_glide_XP_Penalties
+  r_glide_XP_PiStack
+  r_glide_XP_HBPenal
+  r_glide_XP_ExposPenal
+  r_glide_XP_PiCat
+  r_glide_XP_ClBr
+  r_glide_XP_Zpotr
+  i_i_glide_confnum
+  i_i_glide_posenum
+  r_i_glide_eff_state_penalty
+  i_glide_XP_PoseRank
+  i_m_ct_format
+  :::
+  "6T2W - minimized" 
+   7 
+   6t2w.1 
+   "CRYSTAL STRUCTURE OF THE CSF1R KINASE DOMAIN WITH A DIHYDROPURINONE INHIBITOR (COMPOUND 4)" 
+   6T2W 
+   81.04
+   81.04
+   146
+   90
+   90
+   120
+   "H 3" 
+   9
+   TRANSFERASE 
+   09-OCT-19 
+   3.30 
+   0.166
+   0.187
+   1.7
+   "X-RAY DIFFRACTION" 
+   100
+   5.5
+   A 
+   "1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000" 
+   /scratch/lh605/ucc-fs-nethome/addenbrookes_project 
+   6t2w.pdb 
+   1
+   6 
+   1
+   2019-1 
+   1
+   1
+   1
+   1
+   1
+   eJylkzFTwzAMhf+KLzOBSHHiqN2YWDlGjqFXOlFahjBwvf53bNnui92pwPTyIUt9evapoWZlXv0f9xPfme7tzgTZQ1rIAXKEdJATpFykdJAEiWmCaYJpgmmCaYJpgmlymWa7DpIgGbKHtJAD5AjpICdInRZ02lpcGCXnAWg/LsCIil6PWFRYrZhQEYEAhHbqeAnUCxfAomLUKa4CoUc+4rSiBrI4MimQEujYDEQrRvSQuodUPcJ9KCrCrYgXogRSAo02A9264HeI7lRgX+IKqQaLKUO5ZO2/PKLbjFFmEI84AJeT43Ah2u7e9zg1Yc3+XcXPJizMf/mPruOzL1X6Mm/mnfnaHTb7+SfWduZju9k/fB73a/PUPh4P72Z7/D7MK8Nr8+w7NGFIw/nJWsJlJ1x2wmUnv5Y2/VayquO91aPxFKd/R8A1uOw4A90xzHpDdLshUkMtR0c9HOEdEt4h4R3StHAkhSMNh0YYiMDVYIKjCOTK0Z8jyo7sxREjI0ZGjIx4kREXGbEunJFRAlwDZJTAdUb/djTAETJiZMTIiBcZcZER68IZGSXgaoCMErjOaLjd0QBH51/80Ivh 
+   1
+   1
+   -1504.03741340768
+   0.109410724606264
+   2.81469103964442
+   138.025435237411
+   586.610236059586
+   1405.23374930809
+   595.061980821656
+   -2946.77292203386
+   -1738.22181624757
+   425.717826895962
+   298
+   1
+   CSF1R_hypothesis-gridgen 
+   1
+   5
+   -9.81246156664749
+   -0.350445055951696
+   -1.06415759096927
+   -2.26500423597284
+   -9.81246156664749
+   -9.81246156664749
+   -45.9199180603027
+   -7.84188079833984
+   -53.7617988586426
+   0
+   -86.4616775724756
+   -0.997541805612121
+   -0.975
+   0
+   -0.221852666666666
+   0.118948805132547
+   -5.27309556391834
+   -2.09834159936963
+   -0.588141059875488
+   -0.86083828210605
+   1
+   0
+   0
+   0.0834006057682502
+   0
+   0
+   0
+   1
+   2
+   0
+   3
+   2
+  m_atom[53] { 
+    # First column is atom index #
+    i_m_mmod_type
+    r_m_x_coord
+    r_m_y_coord
+    r_m_z_coord
+    i_m_residue_number
+    s_m_chain_name
+    i_m_color
+    r_m_charge1
+    r_m_charge2
+    s_m_pdb_residue_name
+    s_m_pdb_atom_name
+    i_m_atomic_number
+    s_m_color_rgb
+    s_m_label_format
+    i_m_label_color
+    s_m_label_user_text
+    r_m_pdb_occupancy
+    r_m_pdb_tfactor
+    i_i_constraint
+    i_i_internal_atom_index
+    i_m_pdb_convert_problem
+    i_pa_atomindex
+    i_pdb_PDB_serial
+    i_ppw_anum
+    i_ppw_het
+    s_ppw_CCD_assignment_status
+    :::
+    1 2 24.456711 18.783455 -9.548089 1001 A 10 -0.09000 -0.09000 "M9T " " C1 " 6 1EE11E  "%UT"  10 ""  1 20.41 0 4823 4 2382 2389 2382 1 "HETNAM not in CCD" 
+    2 2 25.768543 18.388203 -9.266548 1001 A 10 -0.17000 -0.17000 "M9T " " C2 " 6 1EE11E  "%UT"  10 ""  1 20.67 0 4824 4 2383 2390 2383 1 "HETNAM not in CCD" 
+    3 2 26.181643 18.103533 -7.965992 1001 A 10 0.13000 0.13000 "M9T " " C3 " 6 1EE11E  "%UT"  10 ""  1 24.85 0 4825 4 2384 2391 2384 1 "HETNAM not in CCD" 
+    4 2 20.973688 19.217005 -8.105629 1001 A 10 0.37000 0.37000 "M9T " " C7 " 6 1EE11E  "%UT"  10 ""  1 18.38 0 4826 4 2385 2392 2385 1 "HETNAM not in CCD" 
+    5 2 18.655514 19.438091 -8.255492 1001 A 10 0.07000 0.07000 "M9T " " C8 " 6 1EE11E  "%UT"  10 ""  1 19.33 0 4827 4 2386 2393 2386 1 "HETNAM not in CCD" 
+    6 2 18.553257 19.039989 -6.925572 1001 A 10 -0.18000 -0.18000 "M9T " " C9 " 6 1EE11E  "%UT"  10 ""  1 19.65 0 4828 4 2387 2394 2387 1 "HETNAM not in CCD" 
+    7 2 19.699549 18.795092 -6.234995 1001 A 10 0.13000 0.13000 "M9T " " C10" 6 1EE11E  "%UT"  10 ""  1 20.72 0 4829 4 2388 2395 2388 1 "HETNAM not in CCD" 
+    8 2 17.971075 18.492601 -4.824277 1001 A 10 0.35000 0.35000 "M9T " " C11" 6 1EE11E  "%UT"  10 ""  1 19.67 0 4830 4 2389 2396 2389 1 "HETNAM not in CCD" 
+    9 3 16.090298 18.916843 -6.360672 1001 A 10 -0.15000 -0.15000 "M9T " " C12" 6 1EE11E  "%UT"  10 ""  1 19.91 0 4831 4 2390 2397 2390 1 "HETNAM not in CCD" 
+    10 3 20.222137 18.468903 -3.756356 1001 A 10 -0.07000 -0.07000 "M9T " " C13" 6 1EE11E  "%UT"  10 ""  1 21.1 0 4832 4 2391 2398 2391 1 "HETNAM not in CCD" 
+    11 3 21.280218 17.332230 -3.800214 1001 A 10 -0.14000 -0.14000 "M9T " " C14" 6 1EE11E  "%UT"  10 ""  1 24.79 0 4833 4 2392 2399 2392 1 "HETNAM not in CCD" 
+    12 3 22.271925 17.363106 -2.617731 1001 A 10 -0.13000 -0.13000 "M9T " " C15" 6 1EE11E  "%UT"  10 ""  1 24.62 0 4834 4 2393 2400 2393 1 "HETNAM not in CCD" 
+    13 3 22.910555 18.748363 -2.423948 1001 A 10 0.16000 0.16000 "M9T " " C16" 6 1EE11E  "%UT"  10 ""  1 26.62 0 4835 4 2394 2401 2394 1 "HETNAM not in CCD" 
+    14 3 27.938898 17.318825 -6.502531 1001 A 10 0.13000 0.13000 "M9T " " C19" 6 1EE11E  "%UT"  10 ""  1 30.92 0 4836 4 2395 2402 2395 1 "HETNAM not in CCD" 
+    15 15 17.291309 18.239851 -3.824754 1001 A 70 -0.53000 -0.53000 "M9T " " O  " 8 FF2E2E  "%UT"  70 ""  1 17.2 0 4837 4 2396 2403 2396 1 "HETNAM not in CCD" 
+    16 25 17.512428 18.828529 -6.057953 1001 A 38 0.04000 0.04000 "M9T " " N4 " 7 2E2EFF  "%UT"  38 ""  1 17.82 0 4838 4 2397 2404 2397 1 "HETNAM not in CCD" 
+    17 25 19.874971 19.522648 -8.857710 1001 A 38 -0.27000 -0.27000 "M9T " " N1 " 7 2E2EFF  "%UT"  38 ""  1 17.79 0 4839 4 2398 2405 2398 1 "HETNAM not in CCD" 
+    18 25 19.331203 18.535564 -4.927725 1001 A 38 0.05000 0.05000 "M9T " " N3 " 7 2E2EFF  "%UT"  38 ""  1 20.35 0 4840 4 2399 2406 2399 1 "HETNAM not in CCD" 
+    19 3 20.829351 19.847883 -3.377451 1001 A 10 -0.14000 -0.14000 "M9T " " C18" 6 1EE11E  "%UT"  10 ""  1 20.41 0 4841 4 2400 2407 2400 1 "HETNAM not in CCD" 
+    20 3 21.813406 19.796955 -2.192532 1001 A 10 -0.13000 -0.13000 "M9T " " C17" 6 1EE11E  "%UT"  10 ""  1 22.64 0 4842 4 2401 2408 2401 1 "HETNAM not in CCD" 
+    21 16 23.846882 18.737289 -1.366685 1001 A 70 -0.65000 -0.65000 "M9T " " O1 " 8 FF2E2E  "%UT"  13 ""  1 26.87 0 4843 4 2402 2409 2402 1 "HETNAM not in CCD" 
+    22 25 20.937422 18.861132 -6.787659 1001 A 38 -0.33000 -0.33000 "M9T " " N2 " 7 2E2EFF  "%UT"  38 ""  1 17.96 0 4844 4 2403 2410 2403 1 "HETNAM not in CCD" 
+    23 25 22.190094 19.256065 -8.803143 1001 A 38 -0.63000 -0.63000 "M9T " " N  " 7 2E2EFF  "%UT"  38 ""  1 18.62 0 4845 4 2404 2411 2404 1 "HETNAM not in CCD" 
+    24 2 23.519615 18.897892 -8.499746 1001 A 10 0.20000 0.20000 "M9T " " C6 " 6 1EE11E  "%UT"  10 ""  1 19.88 0 4846 4 2405 2412 2405 1 "HETNAM not in CCD" 
+    25 3 24.101706 19.039207 -11.012836 1001 A 10 -0.12000 -0.12000 "M9T " " C  " 6 1EE11E  "%UT"  10 ""  1 22.29 0 4847 4 2406 2413 2406 1 "HETNAM not in CCD" 
+    26 2 23.948605 18.641457 -7.189407 1001 A 10 -0.11000 -0.11000 "M9T " " C5 " 6 1EE11E  "%UT"  10 ""  1 20.71 0 4848 4 2407 2414 2407 1 "HETNAM not in CCD" 
+    27 2 25.256273 18.242767 -6.924478 1001 A 10 -0.13000 -0.13000 "M9T " " C4 " 6 1EE11E  "%UT"  10 ""  1 20.97 0 4849 4 2408 2415 2408 1 "HETNAM not in CCD" 
+    28 16 27.490461 17.696497 -7.800918 1001 A 70 -0.36000 -0.36000 "M9T " " O2 " 8 FF2E2E  "%UT"  70 ""  1 29.95 0 4850 4 2409 2416 2409 1 "HETNAM not in CCD" 
+    29 41 26.483152 18.288834 -10.070743 1001 A 21 0.13000 0.13000 "M9T " " H2 " 1 FFFFFF  ""  21 ""  <> <> 0 4851 <> 4948 <> <> <> <>
+    30 41 17.785133 19.671106 -8.849769 1001 A 21 0.17000 0.17000 "M9T " " H8 " 1 FFFFFF  ""  21 ""  <> <> 0 4852 <> 4949 <> <> <> <>
+    31 41 15.546472 19.444309 -5.576655 1001 A 21 0.08000 0.08000 "M9T " "H121" 1 FFFFFF  ""  21 ""  <> <> 0 4853 <> 4950 <> <> <> <>
+    32 41 15.922949 19.440069 -7.301632 1001 A 21 0.08000 0.08000 "M9T " "H122" 1 FFFFFF  ""  21 ""  <> <> 0 4854 <> 4951 <> <> <> <>
+    33 41 15.670906 17.914326 -6.450469 1001 A 21 0.08000 0.08000 "M9T " "H123" 1 FFFFFF  ""  21 ""  <> <> 0 4855 <> 4952 <> <> <> <>
+    34 41 19.604757 18.212530 -2.892326 1001 A 21 0.11000 0.11000 "M9T " " H13" 1 FFFFFF  ""  21 ""  <> <> 0 4856 <> 4953 <> <> <> <>
+    35 41 21.869215 17.415525 -4.714431 1001 A 21 0.08000 0.08000 "M9T " "H141" 1 FFFFFF  ""  21 ""  <> <> 0 4857 <> 4954 <> <> <> <>
+    36 41 20.786491 16.360664 -3.832327 1001 A 21 0.08000 0.08000 "M9T " "H142" 1 FFFFFF  ""  21 ""  <> <> 0 4858 <> 4955 <> <> <> <>
+    37 41 23.056105 16.623131 -2.766020 1001 A 21 0.08000 0.08000 "M9T " "H151" 1 FFFFFF  ""  21 ""  <> <> 0 4859 <> 4956 <> <> <> <>
+    38 41 21.738886 17.075142 -1.709721 1001 A 21 0.08000 0.08000 "M9T " "H152" 1 FFFFFF  ""  21 ""  <> <> 0 4860 <> 4957 <> <> <> <>
+    39 41 23.434494 19.013731 -3.344795 1001 A 21 0.04000 0.04000 "M9T " " H16" 1 FFFFFF  ""  21 ""  <> <> 0 4861 <> 4958 <> <> <> <>
+    40 41 28.975056 16.982992 -6.562868 1001 A 21 0.03000 0.03000 "M9T " "H191" 1 FFFFFF  ""  21 ""  <> <> 0 4862 <> 4959 <> <> <> <>
+    41 41 27.904970 18.160137 -5.808436 1001 A 21 0.03000 0.03000 "M9T " "H192" 1 FFFFFF  ""  21 ""  <> <> 0 4863 <> 4960 <> <> <> <>
+    42 41 27.349148 16.493670 -6.097600 1001 A 21 0.03000 0.03000 "M9T " "H193" 1 FFFFFF  ""  21 ""  <> <> 0 4864 <> 4961 <> <> <> <>
+    43 41 20.037207 20.563616 -3.154236 1001 A 21 0.08000 0.08000 "M9T " "H181" 1 FFFFFF  ""  21 ""  <> <> 0 4865 <> 4962 <> <> <> <>
+    44 41 21.370722 20.239847 -4.239724 1001 A 21 0.08000 0.08000 "M9T " "H182" 1 FFFFFF  ""  21 ""  <> <> 0 4866 <> 4963 <> <> <> <>
+    45 41 22.255043 20.780548 -2.025346 1001 A 21 0.08000 0.08000 "M9T " "H171" 1 FFFFFF  ""  21 ""  <> <> 0 4867 <> 4964 <> <> <> <>
+    46 41 21.261398 19.550570 -1.284137 1001 A 21 0.08000 0.08000 "M9T " "H172" 1 FFFFFF  ""  21 ""  <> <> 0 4868 <> 4965 <> <> <> <>
+    47 42 24.538610 18.107950 -1.583420 1001 A 21 0.42000 0.42000 "M9T " " HO1" 1 FFFFFF  ""  21 ""  <> <> 0 4869 <> 4966 <> <> <> <>
+    48 43 22.080908 19.552584 -9.762433 1001 A 21 0.32000 0.32000 "M9T " " HN " 1 FFFFFF  ""  21 ""  <> <> 0 4870 <> 4967 <> <> <> <>
+    49 41 23.032745 18.999084 -11.217042 1001 A 21 0.07000 0.07000 "M9T " "1HXT" 1 FFFFFF  ""  21 ""  <> <> 0 4871 <> 4968 <> <> <> <>
+    50 41 24.490492 20.006983 -11.333055 1001 A 21 0.07000 0.07000 "M9T " "2HXT" 1 FFFFFF  ""  21 ""  <> <> 0 4872 <> 4969 <> <> <> <>
+    51 41 24.555441 18.277338 -11.647906 1001 A 21 0.07000 0.07000 "M9T " "3HXT" 1 FFFFFF  ""  21 ""  <> <> 0 4873 <> 4970 <> <> <> <>
+    52 41 23.291451 18.743467 -6.344116 1001 A 21 0.15000 0.15000 "M9T " " H5 " 1 FFFFFF  ""  21 ""  <> <> 0 4874 <> 4971 <> <> <> <>
+    53 41 25.531448 18.041109 -5.900402 1001 A 21 0.14000 0.14000 "M9T " " H4 " 1 FFFFFF  ""  21 ""  <> <> 0 4875 <> 4972 <> <> <> <>
+    :::
+  } 
+  m_bond[56] { 
+    # First column is bond index #
+    i_m_from
+    i_m_to
+    i_m_order
+    :::
+    1 1 2 1
+    2 1 24 2
+    3 1 25 1
+    4 2 3 2
+    5 2 29 1
+    6 3 27 1
+    7 3 28 1
+    8 4 17 1
+    9 4 22 2
+    10 4 23 1
+    11 5 6 1
+    12 5 17 2
+    13 5 30 1
+    14 6 7 2
+    15 6 16 1
+    16 7 18 1
+    17 7 22 1
+    18 8 15 2
+    19 8 16 1
+    20 8 18 1
+    21 9 16 1
+    22 9 31 1
+    23 9 32 1
+    24 9 33 1
+    25 10 11 1
+    26 10 18 1
+    27 10 19 1
+    28 10 34 1
+    29 11 12 1
+    30 11 35 1
+    31 11 36 1
+    32 12 13 1
+    33 12 37 1
+    34 12 38 1
+    35 13 20 1
+    36 13 21 1
+    37 13 39 1
+    38 14 28 1
+    39 14 40 1
+    40 14 41 1
+    41 14 42 1
+    42 19 20 1
+    43 19 43 1
+    44 19 44 1
+    45 20 45 1
+    46 20 46 1
+    47 21 47 1
+    48 23 24 1
+    49 23 48 1
+    50 24 26 1
+    51 25 49 1
+    52 25 50 1
+    53 25 51 1
+    54 26 27 2
+    55 26 52 1
+    56 27 53 1
+    :::
+  } 
+  m_glide_XPvisualizer { 
+    i_glide_XP_impact_version
+    s_glide_XPviz_ligname
+    i_glide_XPviz_lignum
+    i_glide_XPviz_posenum
+    r_glide_XP_GScore
+    r_i_docking_score
+    r_epik_State_Penalty
+    r_glide_XP_LowMW
+    r_glide_XP_RotPenal
+    r_glide_XP_LipophilicEvdW
+    r_glide_XP_HBond
+    r_glide_XP_PhobEnPairHB
+    r_glide_XP_Sitemap
+    r_glide_XP_Electro
+    r_glide_XP_Penalties
+    r_glide_XP_PhobEn
+    r_glide_XP_PiStack
+    r_glide_XP_PhobEnHB
+    r_glide_XP_HBPenal
+    r_glide_XP_ExposPenal
+    r_glide_XP_PiCat
+    r_glide_XP_ClBr
+    r_glide_XP_Zpotr
+    :::
+    82011
+     "6T2W - minimized" 
+     1
+     2
+     -9.81246156664749
+     -9.81246156664749
+       0.0000 
+     -0.221852666666666
+     0.118948805132547
+     -5.27309556391834
+     -0.997541805612121
+     -2.09834159936963
+     -0.86083828210605
+     -0.588141059875488
+     1
+     -0.975
+     0
+     0
+     0
+     0.0834006057682502
+     0
+     0
+     0
+    m_glide_XPviz_hbonds[3] { 
+      # First column is H-bond index #
+      i_glide_XPviz_ihbl
+      i_glide_XPviz_ihbp
+      r_glide_XPviz_hbsct
+      :::
+      1 48 915 -0.141955764080018
+      2 15 2924 -0.35
+      3 17 3298 -0.505586041532103
+      :::
+    } 
+    m_glide_XPviz_hexpairs[1] { 
+      # First column is sequential index, second is internal index. #
+      i_glide_XPviz_hexpr_index
+      i_glide_XPviz_ispec1a
+      i_glide_XPviz_ipspec
+      i_glide_XPviz_ispec2a
+      i_glide_XPviz_jpspec
+      r_glide_XPviz_hexspec
+      :::
+      1 1 17 3298 48 915 -3
+      :::
+    } 
+    m_glide_XPviz_penalties { 
+      i_glide_XPviz_npenal
+      :::
+      1
+      m_glide_XPviz_water_protein { 
+        r_glide_XPviz_water_protpar
+        :::
+        1
+        m_glide_XPviz_water_protlist[2] { 
+          i_glide_XPviz_water_protat
+          :::
+          1 894
+          2 1449
+          :::
+        } 
+      } 
+    } 
+    m_glide_XPviz_phobpack { 
+      i_glide_XPviz_ngpp
+      r_glide_XPviz_phobsc
+      :::
+      1
+       -1.625
+      m_glide_XPviz_phobgroups[1] { 
+        # Second column is number of ligand atoms in group, third is number of protein residues. #
+        i_glide_XPviz_phobgroup_nat
+        i_glide_XPviz_phobgroup_nres
+        r_glide_XPviz_phobgroup_param
+        :::
+        1 11 9 -0
+        :::
+      } 
+      m_glide_XPviz_phobatsc[11] { 
+        # Second column is group in above table to which specified atom belongs. #
+        i_glide_XPviz_phobatgroup
+        i_glide_XPviz_phobatscat
+        r_glide_XPviz_phobatscpar
+        :::
+        1 1 4 -0.225
+        2 1 5 -0.2
+        3 1 6 -0.15
+        4 1 8 -0.05
+        5 1 9 -0.05
+        6 1 10 -0
+        7 1 11 -0
+        8 1 15 -0.15
+        9 1 17 -0.15
+        10 1 18 -0
+        11 1 19 -0
+        :::
+      } 
+      m_glide_XPviz_pack_res[9] { 
+        # Second column is group in above table to which specified residue belongs. #
+        i_glide_XPviz_pack_resgroup
+        i_glide_XPviz_pack_resnum
+        :::
+        1 1 616
+        2 1 647
+        3 1 596
+        4 1 614
+        5 1 665
+        6 1 797
+        7 1 588
+        8 1 785
+        9 1 800
+        :::
+      } 
+    } 
+    m_glide_XPviz_exposure { 
+      i_glide_XPviz_nexpo
+      r_glide_XPviz_expo
+      :::
+      2
+       0.0834006057682502
+      m_glide_XPviz_expo_group_penal[2] { 
+        # First column is group index, second is number of atoms in group #
+        i_glide_XPviz_expo_nat
+        r_glide_XPviz_expo_penal
+        :::
+        1 1 0.0557192035350272
+        2 1 0.0276814022332231
+        :::
+      } 
+      m_glide_XPviz_expo_groupat[2] { 
+        # Second column is group in above table to which atom belongs, last is ligand atom index. #
+        i_glide_XPviz_expo_liggroup
+        i_glide_XPviz_expo_ligat
+        :::
+        1 1 14
+        2 2 28
+        :::
+      } 
+    } 
+    m_glide_XPviz_rotbonds[3] { 
+      i_glide_XPviz_rotbondat1
+      i_glide_XPviz_rotbondat2
+      :::
+      1 18 10
+      2 4 23
+      3 23 24
+      :::
+    } 
+    m_glide_XPviz_watmol[34] { 
+      r_glide_XPviz_watmolx
+      r_glide_XPviz_watmoly
+      r_glide_XPviz_watmolz
+      :::
+      1 14.0552690370658 20.6027841684584 -3.19010688332586
+      2 24.8886023703992 20.7694508351251 -4.69010688332586
+      3 25.5552690370658 21.6027841684584 -1.5234402166592
+      4 26.8886023703992 12.6027841684584 -4.69010688332586
+      5 27.2219357037325 20.2694508351251 -11.6901068833259
+      6 25.2219357037325 17.2694508351251 1.14322645000747
+      7 25.8886023703992 16.4361175017917 -2.5234402166592
+      8 28.2219357037325 20.6027841684584 -6.85677354999253
+      9 25.3886023703992 15.6027841684584 -12.3567735499925
+      10 27.3886023703992 14.1027841684584 -7.0234402166592
+      11 27.5552690370658 15.7694508351251 -10.5234402166592
+      12 29.0552690370658 18.2694508351251 -10.5234402166592
+      13 29.0552690370658 21.7694508351251 -9.69010688332586
+      14 28.2219357037325 20.6027841684584 -2.35677354999253
+      15 26.5552690370658 18.6027841684584 -14.1901068833259
+      16 26.8886023703992 18.9361175017917 -0.523440216659195
+      17 29.5552690370658 15.1027841684584 -8.52344021665919
+      18 28.0552690370658 15.1027841684584 -4.0234402166592
+      19 30.7219357037325 17.9361175017917 -8.19010688332586
+      20 27.5552690370658 15.6027841684584 -14.1901068833259
+      21 28.3886023703992 17.7694508351251 -3.19010688332586
+      22 28.3886023703992 20.7694508351251 -14.1901068833259
+      23 30.5552690370658 15.2694508351251 -5.5234402166592
+      24 30.5552690370658 18.2694508351251 -5.0234402166592
+      25 29.5552690370658 12.2694508351251 -6.35677354999253
+      26 30.7219357037325 19.2694508351251 -2.35677354999253
+      27 27.5552690370658 15.7694508351251 -0.356773549992528
+      28 29.2219357037325 17.7694508351251 -13.5234402166592
+      29 31.3886023703992 16.2694508351251 -10.5234402166592
+      30 30.5552690370658 15.9361175017917 -2.69010688332586
+      31 30.3886023703992 20.1027841684584 -12.1901068833259
+      32 31.7219357037325 13.2694508351251 -7.85677354999253
+      33 32.7219357037325 16.7694508351251 -6.5234402166592
+      34 32.3886023703992 19.7694508351251 -6.5234402166592
+      :::
+    } 
+  } 
+} 
+
