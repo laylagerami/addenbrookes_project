@@ -24,4 +24,14 @@ Tasks -> Develop Pharmacophore Model, create pharmacophore model using -> Recept
 * Hypothesis name: PDGFRa_hypothesis
 * See PDGFRa_pharmacophore_1/2.png
 
+### CSF1R
+Import pdb [6T2W](http://www.rcsb.org/structure/6T2W) and prepare. Added missing side chains. Deleted SO4 ions. Remove waters with less than 1 H-bonds to non waters. Everything else default.
+
+Saved file as 6t2w_prepared.pdb
+
+Tasks -> Develop Pharmacophore Model, create pharmacophore model using -> Receptor-ligand complex
+* Method: Auto (E-Pharmacophore)
+* Hypothesis name: CSF1R_hypothesis
+* See CSF1R_pharmacophore.png
+
 
