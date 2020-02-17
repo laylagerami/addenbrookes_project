@@ -1,0 +1,93 @@
+--------------------------------------------------------------------------------
+JobId          : calculon-0-5e4a83b0
+Name           : PDGFRa_hypothesis
+Program        : None
+MMshareExec    : /usr/local/shared/schrodinger/current/mmshare-v4.5/bin/Linux-x86_64
+Host           : calculon.ch.private.cam.ac.uk
+Dir            : /scratch/lh605/ucc-fs-nethome/addenbrookes_project/PDGFRa_hypothesis
+HostEntry      : localhost
+JobHost        : calculon.ch.private.cam.ac.uk
+JobDir         : /scratch/lh605/PDGFRa_hypothesis
+JobMMshareExec : /usr/local/shared/schrodinger/current/mmshare-v4.5/bin/Linux-x86_64
+Commandline    : /usr/local/shared/schrodinger/current/utilities/epharmacophores -rec_file PDGFRa_hypothesis-receptor.maegz -lig_file PDGFRa_hypothesis-ligand.maegz -site_center=-11.41,4.46,-9.13 -in_place -j PDGFRa_hypothesis -fd "" -f 7 -site_dist 2.0 -pair_dist 4.0 -xvol -scale 0.5 -buff 2.0 -limit 5.0 -HOST localhost:1 -PROJ /scratch/lh605/ucc-fs-nethome/tproj43187a12754 -VIEWNAME phase.phase_gui_dir.phase_workflows.AutoComplexWorkflow -DISP append -ATTACHED -TMPLAUNCHDIR
+StartTime      : 2020-02-17-12:14:41
+--------------------------------------------------------------------------------
+Running Epharmacophores job...
+Performing Glide auto-docking...
+Jobname: PDGFRa_hypothesis
+Input receptor file: PDGFRa_hypothesis-receptor.maegz
+Input ligand file: PDGFRa_hypothesis-ligand.maegz
+Grid center: -11.41,4.46,-9.13
+Preparing Glide grid generation...
+Launching glide job...
+--------------------------------------------------------------------------------
+JobId          : calculon-0-5e4a83b5
+Name           : PDGFRa_hypothesis-gridgen
+Program        : Glide
+MMshareExec    : /usr/local/shared/schrodinger/current/mmshare-v4.5/bin/Linux-x86_64
+Host           : calculon.ch.private.cam.ac.uk
+Dir            : /scratch/lh605/PDGFRa_hypothesis
+HostEntry      : localhost
+JobHost        : calculon.ch.private.cam.ac.uk
+JobDir         : /scratch/lh605/PDGFRa_hypothesis-gridgen
+JobMMshareExec : /usr/local/shared/schrodinger/current/mmshare-v4.5/bin/Linux-x86_64
+Commandline    : /usr/local/shared/schrodinger/current/glide PDGFRa_hypothesis-gridgen.in
+StartTime      : 2020-02-17-12:14:46
+--------------------------------------------------------------------------------
+Waiting for glide job to finish...
+Job runtime: 0.98 minutes
+Preparing Glide docking...
+Launching glide job...
+--------------------------------------------------------------------------------
+JobId          : calculon-0-5e4a83f7
+Name           : PDGFRa_hypothesis-docking
+Program        : Glide
+MMshareExec    : /usr/local/shared/schrodinger/current/mmshare-v4.5/bin/Linux-x86_64
+Host           : calculon.ch.private.cam.ac.uk
+Dir            : /scratch/lh605/PDGFRa_hypothesis
+HostEntry      : localhost
+JobHost        : calculon.ch.private.cam.ac.uk
+JobDir         : /scratch/lh605/PDGFRa_hypothesis-docking
+JobMMshareExec : /usr/local/shared/schrodinger/current/mmshare-v4.5/bin/Linux-x86_64
+Commandline    : /usr/local/shared/schrodinger/current/glide PDGFRa_hypothesis-docking.in -HOST localhost:1 -NJOBS 1
+StartTime      : 2020-02-17-12:15:51
+--------------------------------------------------------------------------------
+Waiting for glide job to finish...
+Job runtime: 1.00 minutes
+Docked pose: PDGFRa_hypothesis-docking_pv.maegz
+Running maesubset command...
+--------------------------------------------------------------------------------
+Commandline    : /usr/local/shared/schrodinger/current/utilities/maesubset -n 2: PDGFRa_hypothesis-docking_pv.maegz -o PDGFRa_hypothesis_selected.mae
+--------------------------------------------------------------------------------
+Running glide_sort command...
+--------------------------------------------------------------------------------
+Commandline    : /usr/local/shared/schrodinger/current/utilities/glide_sort -o PDGFRa_hypothesis_selected.mae -use_prop s_m_title -noxpdes PDGFRa_hypothesis_selected.mae
+--------------------------------------------------------------------------------
+REPORT OF BEST 1 POSES
+
+The sorted ligand structures were written to the file
+PDGFRa_hypothesis_selected.mae
+
+Final rankings based on s_m_title
+0 poses were rejected by the energy filters,
+    Coul+vdw Energy <=     0.0    Hbond Interaction <=     0.0    Metal Interaction <=    10.0    GlideScore <=   100.0
+(If any of the above properties is not defined for a given pose,
+the corresponding filter is not applied to that pose.)
+
+Parsing XP descriptor terms...
+Performing ChemScore receptor-ligand interaction calculations...
+[running at reduced cpu priority]
+Generating Phase features...
+Running create_molSites command...
+--------------------------------------------------------------------------------
+Commandline    : /usr/local/shared/schrodinger/current/utilities/create_molSites -in PDGFRa_hypothesis_selected_merged.mae -fd /usr/local/shared/schrodinger/current/mmshare-v4.5/bin/Linux-x86_64/../../data/pharma_feature.ini -abase 1 -out PDGFRa_hypothesis_all_features.csv
+--------------------------------------------------------------------------------
+create_molSites successfully completed
+
+Writing hypothesis PDGFRa_hypothesis.phypo...
+Creating receptor-based excluded volumes based on selected ligands...
+Total number of excluded volume spheres created = 150
+Creating excluded volumes file PDGFRa_hypothesis.phypo
+
+create_xvolReceptor successfully completed
+Epharmacophores generation successful.
